@@ -19,64 +19,27 @@
             <form action="#">
                <div class="data">
                   <label>Both Names</label>
-                  <input type="text" required>
+                  <input type="text" id="fullname" required>
                </div>
 
                <div class="data">
-                <label>Email or Phone</label>
-                <input type="text" required>
+                <label>Phone(starting with 254)</label>
+                <input type="tel" id="phone"  required placeholder="254xxxxxxxxx">
              </div>
                <div class="data">
                   <label>Amount</label>
-                  <input type="password" required>
+                  <input type="number" id="amount" required>
                </div> 
                <div class="btn">
                   <div class="inner"></div>
-                  <button type="submit">BUY</button>
+                  <button type="submit" style="padding : 10px 20px" id="mpesa-submit">BUY</button>
                </div>
                
             </form>
          </div>
       </div>
-   </body>
-</html><!DOCTYPE html>
-<!-- Created By CodingNepal -->
-<html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <title></title>
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-   </head>
-   <body>
-      <div class="center">
-         <input type="checkbox" id="show">
-        >
-         <div class="container">
-            <label for="show" class="close-btn fas fa-times" title="close"></label>
-            <div class="text">
-               
-            </div>
-            <form action="#">
-               <div class="data">
-                  <label>Both Names</label>
-                  <input type="text" required>
-               </div>
-               <div class="data">
-                <label>Email or Phone</label>
-                <input type="text" required>
-             </div>
-               <div class="data">
-                  <label>Amount</label>
-                  <input type="password" required>
-               </div>
-               <div class="btn">
-                  <div class="inner"></div>
-                  <button type="submit">BUY</button>
-               </div>
-               
-            </form>
-         </div>
-      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.0/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script type="text/javascript" src="./js/mpesa.js"></script>
    </body>
 </html>
