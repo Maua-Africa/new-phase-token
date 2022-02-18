@@ -1,72 +1,99 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
-  margin: 0;
-  padding: 0;
-  outline: none;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html,
 body{
-  height: 100vh;
-  width: 100%;
-  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 70%);
+    overflow-x: hidden;
 }
-.show-btn{
-  background: #fff;
-  padding: 100px 50px;
-  font-size: 50px;
-  font-weight: 1000;
-  color: #3498db;
-  cursor: pointer;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-}
-.show-btn, .container{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-input[type="checkbox"]{
-  display: none;
+
+body{
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
 }
 .container{
-  display: none;
-  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
-  width: 700px;
-  padding: 150px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    background-color:rgb(12, 0, 42);
+    position: relative;
+    width: 72vw;
+    min-height: 500px;
+    
 }
-#show:checked ~ .container{
-  display: block;
+.container:before{
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    top: -6px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
 }
-.container .close-btn{
-  position: absolute;
-  right: 20px;
-  top: 15px;
-  font-size: 60px;
-  cursor: pointer;
+.container:after{
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -2;
+    filter: blur(40px);
+    margin: 30px;   
 }
-.container .close-btn:hover{
-  color: #3498db;
+.container:before, .container:after{
+    background: linear-gradient(235deg, #33ff00, #00ffff, #3300ff);
 }
-.container .text{
-  font-size: 50px;
-  font-weight: 600;
-  text-align: center;
+.container h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    
 }
-.container form{
-  margin-top: -20px;
+.container label {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 5%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;    
+    margin-top: 12px;
 }
-.container form .data{
-  height: 70px;
-  width: 100%;
-  margin: 100px 0;
+.container input {
+    font-size: 24px;
+    margin: 10px 5%;
+    width: 90%;
+    text-align: center;
+    font-weight: bold;
+    border: none;
 }
-form .data label{
-  font-size: 20px;
+.container button{
+    background-color:#33ff00;
+    color: #fff;
+    font-size: 24px;
+    margin: 15px 5%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-form .data input{
-  height: 100%;
-  width: 100%;
-
+.container p{
+    float: right;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #33ff00;
+    margin: 15px 5%;
 }
+@media screen and (max-width: 768px) {
+    .blog-post {
+      width: 92%;
+      margin: auto;
+    }}
