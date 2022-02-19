@@ -23,6 +23,8 @@ body{
     position: relative;
     width: 72vw;
     min-height: 500px;
+    border-radius: 10%;
+    border: 1px solid ;
     
 }
 .container:before{
@@ -48,7 +50,9 @@ body{
     margin: 30px;   
 }
 .container:before, .container:after{
-    background: linear-gradient(235deg, #33ff00, #00ffff, #7f00ff);
+    background: linear-gradient(235deg, #33ff00, #00ffff, #ac65f3);
+    border-radius: 10%;
+    border: 1px solid #33ff00;
 }
 .container h1 {
     color: #fff;
