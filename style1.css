@@ -16,6 +16,7 @@ body{
     background-color:#7f00ff;
     justify-content: center;
     align-items: center;
+    
 }
 .container{
     background-color:rgb(12, 0, 42);
@@ -83,6 +84,8 @@ body{
     padding-bottom: 2px;
     padding-left: 5px;
     padding-right: 5px;
+    border-radius: 20%;
+    border: 1px solid #33ff00;
 }
 .container p{
     float: right;
