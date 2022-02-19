@@ -13,7 +13,7 @@ body{
     display: flex;
     height: 90vh;
     width: 100vw;
-    background-color:black;
+    background-color:#7f00ff;
     justify-content: center;
     align-items: center;
 }
@@ -47,7 +47,7 @@ body{
     margin: 30px;   
 }
 .container:before, .container:after{
-    background: linear-gradient(235deg, #33ff00, #00ffff, #3300ff);
+    background: linear-gradient(235deg, #33ff00, #00ffff, #7f00ff);
 }
 .container h1 {
     color: #fff;

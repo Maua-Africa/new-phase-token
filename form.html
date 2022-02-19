@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
-<html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <title></title>
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-   </head>
+<html lang="en">
+<head>
+<title>DELINQUENT CALCULATOR</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+</head>
    <body>
-      <div class="center">
-         <input type="checkbox" id="show">
-         <label for="show" class="show-btn">Pay On Mpesa</label>
+      <div class="center">  
          <div class="container">
             <label for="show" class="close-btn fas fa-times" title="close"></label>
-            <div class="text">
-               
+            <div class="text">              
             </div>
             <form action="#">
+               <form>
+                  <input type="button" value="Go back!" onclick="history.back()">
+                 </form>
+               <h1>BUY WITH MPESA</h1>
                <div class="data">
                   <label>Both Names</label>
                   <input type="text" id="fullname" required>
                </div>
 
                <div class="data">
-                <label>Phone(starting with 254)</label>
+                <label>Phone(start with 254)</label>
                 <input type="tel" id="phone"  required placeholder="254xxxxxxxxx">
              </div>
                <div class="data">
@@ -43,3 +44,4 @@
       <script type="text/javascript" src="./js/mpesa.js"></script>
    </body>
 </html>
+
