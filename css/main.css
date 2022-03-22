@@ -1,4 +1,4 @@
-/*! core.scss | DELINQUENT | Maua */ /*! _theme-default.scss | DELINQUENT | Kit1 | Maua */
+/*! core.scss | DELIQUENT | Maua */ /*! _theme-default.scss | DELIQUENT | Kit1 | Maua */
 .primary-gradient {
   background: #7f00ff;
   background: -webkit-gradient(
@@ -20,7 +20,7 @@
     to(#33ccff)
   ) !important;
   background: linear-gradient(to right, #00ff99, #33ccff) !important;
-} /*! _colors.scss | DELINQUENT | Maua */ /*! _animations.scss | DELINQUENT | Maua */
+} /*! _colors.scss | DELIQUENT | Maua */ /*! _animations.scss | DELIQUENT | Maua */
 .animated {
   animation-duration: 0.5s;
   animation-fill-mode: both;
@@ -12431,7 +12431,7 @@ a.has-text-danger-dark:focus {
     font-size: 0.75rem;
     color: #b5b5b5;
   }
-} /*! _buttons.scss | DELINQUENT | Maua */
+} /*! _buttons.scss | DELIQUENT | Maua */
 .button.k-button {
   min-width: 130px;
   font-size: 0.75rem;
@@ -12703,7 +12703,7 @@ a.has-text-danger-dark:focus {
 }
 .button.grey-button:focus {
   border-color: #ccc;
-} /*! _forms.scss | DELINQUENT | Maua */
+} /*! _forms.scss | DELIQUENT | Maua */
 .control-material {
   position: relative;
   margin-bottom: 3em;
@@ -13016,7 +13016,7 @@ a.has-text-danger-dark:focus {
   top: 14px;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-} /*! _layout.scss | DELINQUENT | Maua */
+} /*! _layout.scss | DELIQUENT | Maua */
 body {
   overflow: hidden;
 }
@@ -14214,7 +14214,7 @@ body {
 }
 .media-wrapper .comments .comments-list .comment-controls {
   margin: 10px;
-} /*! _features.scss | DELINQUENT | Maua */
+} /*! _features.scss | DELIQUENT | Maua */
 .video-button {
   position: relative;
   height: 54px;
@@ -14569,35 +14569,35 @@ ul#countdown li .label {
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
-} /*! _theme-default.scss | DELINQUENT | Kit1 | Maua */
-.DELINQUENT-timeline {
+} /*! _theme-default.scss | DELIQUENT | Kit1 | Maua */
+.DELIQUENT-timeline {
   opacity: 0;
   margin: 0 auto;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
-.DELINQUENT-timeline:before {
+.DELIQUENT-timeline:before {
   content: "mobile";
   display: none;
 }
-.DELINQUENT-timeline.loaded {
+.DELIQUENT-timeline.loaded {
   opacity: 1;
 }
-.DELINQUENT-timeline .timeline {
+.DELIQUENT-timeline .timeline {
   position: relative;
   height: 100px;
   width: 90%;
   max-width: 800px;
   margin: 0 auto;
 }
-.DELINQUENT-timeline .events-wrapper {
+.DELIQUENT-timeline .events-wrapper {
   position: relative;
   height: 100%;
   margin: 0 40px;
   overflow: hidden;
 }
-.DELINQUENT-timeline .events-wrapper:after,
-.DELINQUENT-timeline .events-wrapper:before {
+.DELIQUENT-timeline .events-wrapper:after,
+.DELIQUENT-timeline .events-wrapper:before {
   content: "";
   position: absolute;
   z-index: 2;
@@ -14605,13 +14605,13 @@ ul#countdown li .label {
   height: 100%;
   width: 20px;
 }
-.DELINQUENT-timeline .events-wrapper:before {
+.DELIQUENT-timeline .events-wrapper:before {
   left: 0;
 }
-.DELINQUENT-timeline .events-wrapper:after {
+.DELIQUENT-timeline .events-wrapper:after {
   right: 0;
 }
-.DELINQUENT-timeline .events {
+.DELIQUENT-timeline .events {
   position: absolute;
   z-index: 1;
   left: 0;
@@ -14623,7 +14623,7 @@ ul#countdown li .label {
   transition: transform 0.4s;
   transition: transform 0.4s, -webkit-transform 0.4s;
 }
-.DELINQUENT-timeline .events a {
+.DELIQUENT-timeline .events a {
   position: absolute;
   width: 55px;
   bottom: 0;
@@ -14648,7 +14648,7 @@ ul#countdown li .label {
   padding: 5px;
   margin-bottom: 20px;
 }
-.DELINQUENT-timeline .events a:before {
+.DELIQUENT-timeline .events a:before {
   content: "";
   position: absolute;
   width: 1px;
@@ -14665,7 +14665,7 @@ ul#countdown li .label {
   bottom: -20px;
   left: 50%;
 }
-.DELINQUENT-timeline .events a:after {
+.DELIQUENT-timeline .events a:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -14681,10 +14681,10 @@ ul#countdown li .label {
   -webkit-transition: background-color 0.3s, border-color 0.3s;
   transition: background-color 0.3s, border-color 0.3s;
 }
-.DELINQUENT-timeline .events a.selected {
+.DELIQUENT-timeline .events a.selected {
   pointer-events: none;
 }
-.DELINQUENT-timeline .events a.selected:after {
+.DELIQUENT-timeline .events a.selected:after {
   background: #0f9;
   background: -webkit-gradient(
     linear,
@@ -14696,10 +14696,10 @@ ul#countdown li .label {
   background: linear-gradient(to right, #00ff99, #33ccff) !important;
   border-color: #0f9;
 }
-.DELINQUENT-timeline .events a.older-event:after {
+.DELIQUENT-timeline .events a.older-event:after {
   border-color: #0f9;
 }
-.DELINQUENT-timeline .filling-line {
+.DELIQUENT-timeline .filling-line {
   position: absolute;
   z-index: 1;
   left: 0;
@@ -14865,7 +14865,7 @@ ul#countdown li .label {
 .timeline-navigation a.inactive:after {
   background-position: 0 -16px;
 }
-.no-touch .DELINQUENT-timeline .events a:hover::after {
+.no-touch .DELIQUENT-timeline .events a:hover::after {
   background-color: #7b9d6f;
   border-color: #7b9d6f;
 }
@@ -14876,10 +14876,10 @@ ul#countdown li .label {
   border-color: #dfdfdf;
 }
 @media only screen and (min-width: 1100px) {
-  .DELINQUENT-timeline {
+  .DELIQUENT-timeline {
     margin: 40px auto;
   }
-  .DELINQUENT-timeline:before {
+  .DELIQUENT-timeline:before {
     content: "desktop";
   }
 }
@@ -14926,7 +14926,7 @@ ul#countdown li .label {
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
   }
-} /*! _team.scss | DELINQUENT | Maua */
+} /*! _team.scss | DELIQUENT | Maua */
 .team-member-container {
   position: relative;
 }
@@ -15038,7 +15038,7 @@ ul#countdown li .label {
   font-family: "Open Sans", sans-serif;
   font-size: 0.75rem;
   color: #7f00ff;
-} /*! _faq.scss | DELINQUENT | Maua */
+} /*! _faq.scss | DELIQUENT | Maua */
 .accordion {
   margin: 3em auto;
   max-width: 30em;
@@ -15121,7 +15121,7 @@ ul#countdown li .label {
   + .accordion-title:before {
   -webkit-transform: rotate(90deg) !important;
   transform: rotate(90deg) !important;
-} /*! _blog.scss | DELINQUENT | Maua */
+} /*! _blog.scss | DELIQUENT | Maua */
 .blog-post img {
   display: block;
   width: 100%;
@@ -15416,24 +15416,24 @@ ul#countdown li .label {
     -o-object-fit: cover;
     object-fit: cover;
   }
-} /*! _footer.scss | DELINQUENT | Maua */
-.DELINQUENT-footer {
+} /*! _footer.scss | DELIQUENT | Maua */
+.DELIQUENT-footer {
   padding: 100px 40px;
   background: #0f0330;
   text-align: center;
   position: relative;
 }
-.DELINQUENT-footer .solar-system {
+.DELIQUENT-footer .solar-system {
   position: absolute;
   top: 0;
   right: 0;
   max-width: 50%;
   z-index: 0;
 }
-.DELINQUENT-footer .footer-logo img {
+.DELIQUENT-footer .footer-logo img {
   height: 75px;
 }
-.DELINQUENT-footer .footer-logo .brand-name {
+.DELIQUENT-footer .footer-logo .brand-name {
   font-family: "Cabin", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
@@ -15442,19 +15442,19 @@ ul#countdown li .label {
   font-size: 1.4rem;
   letter-spacing: 3px;
 }
-.DELINQUENT-footer .footer-logo .brand-subtitle {
+.DELIQUENT-footer .footer-logo .brand-subtitle {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.65rem;
   color: #7f00ff;
 }
-.DELINQUENT-footer .footer-columns {
+.DELIQUENT-footer .footer-columns {
   padding: 40px 0;
   position: relative;
   z-index: 1;
 }
-.DELINQUENT-footer .footer-columns .subscribe-block .subscribe-title {
+.DELIQUENT-footer .footer-columns .subscribe-block .subscribe-title {
   padding: 10px 0;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
@@ -15462,15 +15462,15 @@ ul#countdown li .label {
   font-size: 0.55rem;
   color: #0f9;
 }
-.DELINQUENT-footer .footer-columns .subscribe-block .control {
+.DELIQUENT-footer .footer-columns .subscribe-block .control {
   position: relative;
   width: 100%;
 }
-.DELINQUENT-footer
+.DELIQUENT-footer
   .footer-columns
   .subscribe-block
   .control
-  .DELINQUENT-subscribe-input {
+  .DELIQUENT-subscribe-input {
   height: 50px;
   width: 100%;
   background: rgba(17, 149, 247, 0.08);
@@ -15484,23 +15484,23 @@ ul#countdown li .label {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-.DELINQUENT-footer
+.DELIQUENT-footer
   .footer-columns
   .subscribe-block
   .control
-  .DELINQUENT-subscribe-input:focus,
-.DELINQUENT-footer
+  .DELIQUENT-subscribe-input:focus,
+.DELIQUENT-footer
   .footer-columns
   .subscribe-block
   .control
-  .DELINQUENT-subscribe-input:active {
+  .DELIQUENT-subscribe-input:active {
   outline: none !important;
   border: 1px solid rgba(0, 83, 251, 0.8) !important;
   -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5),
     0 0 25px 0 rgba(18, 60, 255, 0.26) !important;
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 0 25px 0 rgba(18, 60, 255, 0.26) !important;
 }
-.DELINQUENT-footer .footer-columns .subscribe-block .control button {
+.DELIQUENT-footer .footer-columns .subscribe-block .control button {
   display: block;
   position: absolute;
   right: 4px;
@@ -15526,14 +15526,14 @@ ul#countdown li .label {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.DELINQUENT-footer .footer-columns .subscribe-block .control button:focus,
-.DELINQUENT-footer .footer-columns .subscribe-block .control button:active {
+.DELIQUENT-footer .footer-columns .subscribe-block .control button:focus,
+.DELIQUENT-footer .footer-columns .subscribe-block .control button:active {
   outline: none !important;
 }
-.DELINQUENT-footer .footer-columns .subscribe-block .control button:hover {
+.DELIQUENT-footer .footer-columns .subscribe-block .control button:hover {
   opacity: 0.8;
 }
-.DELINQUENT-footer .footer-columns .footer-links {
+.DELIQUENT-footer .footer-columns .footer-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15543,7 +15543,7 @@ ul#countdown li .label {
   -ms-flex-align: center;
   align-items: center;
 }
-.DELINQUENT-footer .footer-columns .footer-links li a {
+.DELIQUENT-footer .footer-columns .footer-links li a {
   position: relative;
   text-transform: uppercase;
   font-family: "Cabin", sans-serif;
@@ -15552,7 +15552,7 @@ ul#countdown li .label {
   color: #fff;
   padding: 10px 0;
 }
-.DELINQUENT-footer .footer-columns .footer-links li a:before {
+.DELIQUENT-footer .footer-columns .footer-links li a:before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -15580,29 +15580,29 @@ ul#countdown li .label {
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
     -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.DELINQUENT-footer .footer-columns .footer-links li a:hover:before {
+.DELIQUENT-footer .footer-columns .footer-links li a:hover:before {
   -webkit-transform-origin: left center;
   transform-origin: left center;
   -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
 }
-.DELINQUENT-footer .k-copyright {
+.DELIQUENT-footer .k-copyright {
   position: relative;
   color: #7f00ff;
   font-family: "Open Sans", sans-serif;
   font-size: 0.85rem;
   z-index: 2;
 }
-.DELINQUENT-footer .coded-by {
+.DELIQUENT-footer .coded-by {
   position: relative;
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 0.7rem;
   z-index: 2;
 }
-.DELINQUENT-footer .coded-by a {
+.DELIQUENT-footer .coded-by a {
   color: #0f9;
-} /*! _pageloader.scss | DELINQUENT | Maua */
+} /*! _pageloader.scss | DELIQUENT | Maua */
 .pageloader {
   position: fixed;
   top: 0;
@@ -15732,7 +15732,7 @@ ul#countdown li .label {
 .infraloader.is-active {
   opacity: 1;
   z-index: 999997;
-} /*! _responsive.scss | DELINQUENT | Maua */
+} /*! _responsive.scss | DELIQUENT | Maua */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .navbar .navbar-item.is-nav-link {
     text-align: center !important;
